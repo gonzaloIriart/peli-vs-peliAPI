@@ -13,4 +13,4 @@ RUN npm install
 
 COPY [".", "/src"]
 
-CMD ["node", "/src/servidor/server.js"]
+CMD ["npm", "start"]
