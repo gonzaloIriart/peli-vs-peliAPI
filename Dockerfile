@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Gonzalo Iriart
+
 RUN apt-get update && \
     apt-get -y install curl && \
     curl -sL https://deb.nodesource.com/setup_6.x | sudo bash - && \
